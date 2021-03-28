@@ -13,6 +13,22 @@
     integrity="sha512-pBSlhNUvB+td6sjW1zmR6L7c7kVWR4octUPl4tfHmzO63424nxta8aLmficEcAAswQmRqTiToi63AazDurj/Sg==" 
     crossorigin="anonymous">
     </script>
-    <script type="text/jsx" src="./jsx_demo_script.js"></script>
+    <script type="text/jsx">
+        function getMood(){
+            const moods = ["Angry", "Hungry", "Desperate", "Depressed", "Excited"];
+            return moods[Math.floor(Math.random() * moods.length)];
+        }
+        
+        
+        class JSX_Demo extends React.Component{
+            render(){
+                return(
+                    <h1>My current mood is {getMood()}</h1>
+                );
+            }
+        }
+        
+        ReactDOM.render(<JSX_Demo/>, document.getElementById('main'));
+    </script>
 </body>
 </html>
