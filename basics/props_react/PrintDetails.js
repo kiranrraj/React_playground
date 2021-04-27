@@ -5,7 +5,7 @@ class PrintDetails extends React.Component{
             <div>
                 <h1>{this.props.name}</h1>
                 <ul>
-                    {address.map((add, i) => <li key={i}>{add}</li>)}
+                    {address.map((elem, i) => <li key={i}>{elem}</li>)}
                 </ul>
             </div>
         );
