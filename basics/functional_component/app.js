@@ -2,7 +2,7 @@
 function JSX_Demo(){
     // console.log("hello");
     return <h1> Hello Kiran </h1>
-    }
+}
 
 function Container(){
     return(
