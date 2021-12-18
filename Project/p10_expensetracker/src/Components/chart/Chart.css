@@ -1,0 +1,13 @@
+.chart{
+    width: 95vw;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px #111;
+    height: 10rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(76, 0, 139);
+}

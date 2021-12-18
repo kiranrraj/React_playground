@@ -1,0 +1,11 @@
+.Card{
+    background-color: violet;
+    box-shadow: 5px 5px 10px #111;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    margin: 20px auto 0;
+    border-radius: 20px;
+}

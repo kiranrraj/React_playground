@@ -1,0 +1,20 @@
+.expense__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 100px;
+    max-width: 300px;
+    margin: 10px auto;
+    box-shadow: 3px 3px 10px #111;
+}
+
+.expense__item--description{
+    height: 100%;
+    width: 230px;
+    padding: 0 20px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

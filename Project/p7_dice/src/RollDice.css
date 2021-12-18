@@ -1,0 +1,25 @@
+.RollDice{
+    height: 100vh;
+    width: 100%;
+    background-color: steelblue;
+}
+
+button{
+    display: block;
+    text-align: center;
+    padding: 1rem 4rem;
+    margin: 2rem auto;
+    background-color: steelblue;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    border-radius: 3rem;
+    box-shadow:  0 0 3px 1px #111;
+    transition: all 200ms ease;
+}
+
+button:hover{
+    box-shadow: 0 0 1px 0.5px #111;
+}

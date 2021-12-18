@@ -1,0 +1,19 @@
+.users{
+    list-style: none;
+    width: 35%;
+    margin: 10px auto;
+    margin-top: 50px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    margin-top: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #111;
+    padding: 1rem;
+}

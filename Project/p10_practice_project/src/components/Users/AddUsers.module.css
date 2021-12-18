@@ -1,0 +1,19 @@
+.Card__item{
+    background-color: darkorchid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 300px;
+    margin-bottom: 1rem;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.Card__input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}

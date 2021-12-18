@@ -1,0 +1,22 @@
+.expense__item--date{
+    background-color: yellow;
+    width: 120px;
+    padding: 0 0.5rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    border-right: 5px solid #fff;
+    color: red;
+}
+
+.date--day{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.date--month{
+    text-transform: uppercase;
+}
